@@ -21,18 +21,6 @@ div {
 	box-sizing: border-box;
 }
 
-.float-menu {
-margin: 50% auto;
-width:450px;
-background: #fed136;
- 
-}
-.float-menu a
-{
-color: black;
-padding-left:10px;
-}
-
 .container {
 	width: 930px;
 	margin: 0 auto;
