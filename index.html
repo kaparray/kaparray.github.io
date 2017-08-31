@@ -5,13 +5,49 @@
 	<title>Adeshchenko Kirill</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/icon.png"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.js "></script>
+ 
+<script language="javascript">
+$(document).ready(function(){
+var headermenu = $(".float-menu");
+var offset = headermenu.offset();
+var left = offset.left;
+var top = offset.top;
+var width = $(".float-menu").width();
+var height = $(".float-menu").height();
+ 
+$(window).scroll(function(){
+var scrollTop = $(window).scrollTop();
+if (scrollTop > top) {
+$('#float').css({
+width:width+'px',
+height:height+'px'
+});
+$('.float-menu').css({
+left:left+'px',
+position:'fixed',
+top:"0px",
+width:width+"px"
+});
+} else {
+$('#float').css({
+width:'0px',
+height:'0px'
+});
+$('.float-menu').css({
+position:'static',
+});
+}
+});
+});
+</script>
 </head>
 <body>
 
 
 	<header>
-		<div class="container">
-			<div class="heading clearfix">
+		<div class="container float-menu">
+			<div class="heading clearfix ">
 				<img src="img/laptop1.png" alt="Golden" class="logo">
 				<nav>
 					<ul class="menu">
@@ -85,17 +121,38 @@
 				<h2>
 					My portfolio
 				</h2>
-				<p>
+				<h3>
 					This is only a small part of what we did
-				</p>
+				<h3>
+				<h5>
+					Сlick on the picture to view the project
+				</h5>
 			</div>
 			<div class="works clearfix">
-				<a href="https://github.com/kaparray/The_project_for_the_first_year"><img src="img/calculating.png" alt="Работа"></a>
+				<a href="https://github.com/kaparray/Thыe_project_for_the_first_year"><img src="img/calculator.png" alt="Работа"></a>
 				<a href="https://github.com/kaparray/experimental.conclusion"><img src="img/flask.png" alt="Работа"></a>
-				<img src="img/wall-timetable.png" alt="Работа">
+				<a href="https://github.com/kaparray/kip_timetabel"><img src="img/calendar.png" alt="Работа"></a>
 			</div>
 		</div>
 	</section>
 
+	<section id="samsung">
+		<div class="container">
+			<div>
+				<h2 class="title">
+					Samsung IT School
+				</h2>
+				<p>
+					coming soon
+				</p>
+			</div>
+		</div>
+	</section>
 </body>
+<footer class="container">
+	<hr align="left"  size="2" color="#656056" />
+	<p id="copi">
+	© 2017 Adeshchenko Cyril 
+	</p>
+</footer>
 </html>

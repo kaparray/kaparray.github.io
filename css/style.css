@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	color: black;
+	background: #d8e5e5;
 }
 
 .clearfix:after {
@@ -13,13 +14,24 @@ body {
 }
 
 header {
-	background-color: #fed136;; 
+	background-color: #fed136; 
 }
 
 div {
 	box-sizing: border-box;
 }
 
+.float-menu {
+margin: 50% auto;
+width:450px;
+background: #fed136;
+ 
+}
+.float-menu a
+{
+color: black;
+padding-left:10px;
+}
 
 .container {
 	width: 930px;
@@ -29,12 +41,12 @@ div {
 .logo {
 	margin-top: 0px;
 	float: left;
-	height: 130px;
+	height: 100px;
 }
 
 nav {
 	float: right;
-	margin-top: 48px;
+	margin-top: 38px;
 }
 
 .menu li a:hover {
@@ -63,8 +75,15 @@ nav {
 }
 
 .bg_w {
-	background: url(../img/pattern.jpg) no-repeat center top / cover;
-	height: 50vh;
+	background-color:silver;
+	background-image: 
+	radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size:100px 50px;
+	padding-bottom: 20px; 
 }
 
 .titles__first {
@@ -84,13 +103,38 @@ h1 {
 	margin: 15px;
 }
 
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h5 {
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+
+}
+
+h3 {
+	font-size: 24px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
 .button {
 	background: #fed136;
 	color: black;
-	border-radius: 3px;
+	border-radius: 13px;
 	display: block;
 	width: 240px;
-	padding: 20px 0;
+	padding: 15px 0;
 	margin: 0 auto;
 	text-decoration: none;
 	text-align: center;
@@ -108,19 +152,14 @@ h1 {
 	padding-top: 80px;
 }
 
-.title h2 {
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0;
-}
-
-.title p {
+p {
+	padding-top: 20px;
 	margin-top: 5px; 
+	padding-bottom: 20px; 
 	color: black;
 	text-align: center;
-	font-size: 16px;
+	font-size: 28px;
+	text-transform: uppercase;
 }
 
 .services_item {
@@ -154,26 +193,47 @@ h1 {
 }
 
 #portfolio {
-	background: #f7f7f7;
+	background: #d59df4;
 	padding-bottom: 120px;
 }
+
 
 #services {
 	padding-bottom: 120px;
 }
 
 .works {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
-.works img {
+.works a {
 	float: left;
 }
 
-.works img:nth-child(2) {
-	margin-left: 65px;
+.works a:nth-child(2) {
+margin-left: 78px;
 }
 
-.works img:last-child {
+.works a:first-child{
+	float: left;
+}
+
+.works a:last-child {
 	float: right;
+}
+
+#samsung {
+	background: #d8e5e5;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+#copi {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 0;
 }
