@@ -3,8 +3,6 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #222222;
-	background: url(../img/pattern.jpg) no-repeat center top / cover;
-	height: 100vh;
 }
 
 .clearfix:after {
@@ -16,6 +14,11 @@ body {
 
 div {
 	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/pattern.jpg) no-repeat center top / cover;
+	height: 75vh;
 }
 
 .container {
@@ -58,7 +61,7 @@ nav {
 }
 
 .contakt_me {
-	padding-left: 25%;
+	padding-left: 54vh;
 	padding-top: 40px; 
 	margin: 0;
 	display: block;
@@ -72,7 +75,7 @@ nav {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 65px;
 	color: black;
 	text-transform: uppercase;
 	text-align: center;

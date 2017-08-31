@@ -2,9 +2,7 @@ body {
 	font-family: "Source Sans Pro", sans-serif;
 	padding: 0;
 	margin: 0;
-	color: #222222;
-	background: url(../img/pattern.jpg) no-repeat center top / cover;
-	height: 100vh;
+	color: black;
 }
 
 .clearfix:after {
@@ -12,6 +10,10 @@ body {
 	display: table;
 	width: 100%;
 	clear: both;
+}
+
+header {
+	background-color: #fed136;; 
 }
 
 div {
@@ -25,18 +27,20 @@ div {
 }
 
 .logo {
-	margin-top: 41px;
+	margin-top: 0px;
 	float: left;
-	height: 120px;
+	height: 130px;
 }
 
 nav {
 	float: right;
-	margin-top: 45px;
+	margin-top: 48px;
 }
 
-.menu li:hover {
+.menu li a:hover {
 	text-decoration: underline;
+	color: black;
+
 }
 
 .menu {
@@ -52,18 +56,24 @@ nav {
 }
 
 .menu a {
-	color: black;
+	color: #6b5400;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 24px;
 }
 
+.bg_w {
+	background: url(../img/pattern.jpg) no-repeat center top / cover;
+	height: 50vh;
+}
+
 .titles__first {
+	padding-top: 35px;
 	font-size: 40px;
 	color: black;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 130px;
+	margin-top: 0px;
 }
 
 h1 {
@@ -76,7 +86,7 @@ h1 {
 
 .button {
 	background: #fed136;
-	color: #484543;
+	color: black;
 	border-radius: 3px;
 	display: block;
 	width: 240px;
@@ -90,6 +100,80 @@ h1 {
 	margin-top: 50px;
 }
 
-footer {
+#services {
+	background: #e5ffe5;
+}
+
+.title {
+	padding-top: 80px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
 	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	margin-top: 5px; 
+	color: black;
+	text-align: center;
+	font-size: 16px;
+}
+
+.services_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services_item h2 {
+	font-size: 18px;
+	color: black;
+	margin-bottom: 5px; 
+}
+
+.services_item p {
+	line-height: 1.55em;
+	color: black;
+	font-size: 14px;
+}
+
+.services_item:last-child {
+	float: right;
+}
+
+.services_item:nth-child(2) {
+	margin-left: 60px; 
+}
+
+.services {
+	margin-top: 50px; 
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+#services {
+	padding-bottom: 120px;
+}
+
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 65px;
+}
+
+.works img:last-child {
+	float: right;
 }
