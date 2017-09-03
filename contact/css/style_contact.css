@@ -1,0 +1,133 @@
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: black;
+	background: #d8e5e5;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header {
+	background-color: #fed136; 
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 0px;
+	float: left;
+	height: 100px;
+}
+
+nav {
+	float: right;
+	margin-top: 38px;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+	color: black;
+
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #6b5400;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+
+}
+
+.contact h1 {
+	margin: 45px;
+
+}
+
+.contact img {
+	padding-left: 401px;
+	size: 
+}
+
+.contact a {
+	color: black;
+	text-decoration: none;
+}
+
+.contact p {
+	font-size: 24px;
+	text-align: center;
+}
+
+#vk {
+	border:  10px solid grey;
+	border-radius: 100px;
+	background: #99CCCC;
+	margin-bottom: 50px;
+	padding-top: 10px; 
+}
+
+#tg {
+	border:  10px solid grey;
+	border-radius: 100px;
+	background: #FFFF00;
+	margin-bottom: 50px;
+	padding-top: 10px; 
+}
+
+#gh {
+	border:  10px solid grey;
+	border-radius: 100px;
+	background: #d59df4;
+	margin-bottom: 50px;
+	padding-top: 10px; 
+}
+
+#tw {
+	border:  10px solid grey;
+	border-radius: 100px;
+	background: #00CC66;
+	margin-bottom: 50px;
+	padding-top: 10px; 
+} 
+
+body {
+	background: url(../img/memphis-colorful.png);
+}
+
+#copi {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+}
